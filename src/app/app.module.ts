@@ -19,6 +19,9 @@ const appRoutes:Routes=[
   {path:'proyecto-servicios',component:ProyectoServiciosComponent},
   {path:'comprar-tokens',component:ComprarTokensComponent},
   {path:'ingreso',component:IngresoComponent},
+  {path:'proyecto-registro',component:ProyectoRegistroComponent},
+  {path:'registrar-equipo',component:RegistrarEquipoComponent}
+
 ]
 
 

@@ -11,6 +11,7 @@ import{ProyectoServiciosComponent} from '../proyecto-servicios/proyecto-servicio
 import{ComprarTokensComponent} from '../comprar-tokens/comprar-tokens.component';
 import{IngresoComponent} from '../ingreso/ingreso.component';
 import { RegistrarEquipoComponent } from './registrar-equipo/registrar-equipo.component';
+import { CrearCamisasComponent } from './crear-camisas/crear-camisas.component';
 
 const appRoutes:Routes=[
   {path:'',component:IngresoComponent},
@@ -20,7 +21,8 @@ const appRoutes:Routes=[
   {path:'comprar-tokens',component:ComprarTokensComponent},
   {path:'ingreso',component:IngresoComponent},
   {path:'proyecto-registro',component:ProyectoRegistroComponent},
-  {path:'registrar-equipo',component:RegistrarEquipoComponent}
+  {path:'registrar-equipo',component:RegistrarEquipoComponent},
+  {path:'crear-camisas',component:CrearCamisasComponent}
 
 ]
 
@@ -28,7 +30,7 @@ const appRoutes:Routes=[
 @NgModule({
   imports:      [ BrowserModule, FormsModule,  
   RouterModule.forRoot(appRoutes)],
-  declarations: [ AppComponent, HelloComponent,ProyectoComponent,ProyectoRegistroComponent,ProyectoServiciosComponent,ComprarTokensComponent,IngresoComponent, RegistrarEquipoComponent ],
+  declarations: [ AppComponent, HelloComponent,ProyectoComponent,ProyectoRegistroComponent,ProyectoServiciosComponent,ComprarTokensComponent,IngresoComponent, RegistrarEquipoComponent, CrearCamisasComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule {

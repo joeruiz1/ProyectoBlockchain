@@ -10,6 +10,7 @@ import {ProyectoRegistroComponent} from '../proyecto-registro/proyecto-registro.
 import{ProyectoServiciosComponent} from '../proyecto-servicios/proyecto-servicios.component';
 import{ComprarTokensComponent} from '../comprar-tokens/comprar-tokens.component';
 import{IngresoComponent} from '../ingreso/ingreso.component';
+import { RegistrarEquipoComponent } from './registrar-equipo/registrar-equipo.component';
 
 const appRoutes:Routes=[
   {path:'',component:IngresoComponent},
@@ -24,7 +25,7 @@ const appRoutes:Routes=[
 @NgModule({
   imports:      [ BrowserModule, FormsModule,  
   RouterModule.forRoot(appRoutes)],
-  declarations: [ AppComponent, HelloComponent,ProyectoComponent,ProyectoRegistroComponent,ProyectoServiciosComponent,ComprarTokensComponent,IngresoComponent ],
+  declarations: [ AppComponent, HelloComponent,ProyectoComponent,ProyectoRegistroComponent,ProyectoServiciosComponent,ComprarTokensComponent,IngresoComponent, RegistrarEquipoComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule {
